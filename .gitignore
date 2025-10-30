@@ -1,0 +1,24 @@
+# Dependencies & builds
+node_modules/
+dist/
+build/
+.vite/
+.cache/
+.tmp/
+
+# Env & OS
+.env
+server/.env
+.DS_Store
+Thumbs.db
+
+# Server runtime data
+server/uploads/**
+!server/uploads/.gitkeep
+server/data/db.json
+
+# Logs
+*.log
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
